@@ -1,0 +1,54 @@
+body{
+    background-image: url(background.jpg); 
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+table{
+    margin:auto;
+    width: 90%;
+}
+
+table, th, td
+{
+  /* border-collapse: collapse; */
+  border:2px navy solid;
+  border-width: 5px;
+  border-radius: 5px;
+  opacity: 0.95;
+  font-size: large;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even)
+{
+  background-color: lightgray;
+}
+tr:nth-child(odd)
+{
+  background-color: white;
+}
+
+.class{
+    background-color: purple;
+    color: #d4d4d4;
+    font-weight: bold;
+}
+
+.title{
+    font-size: larger;
+    background-color: #5c84c4;
+}
+
+.time, th{
+    background-color: #538096;
+}
+
+.time{
+    text-align: right;
+}
+
+td{
+    text-align: center;
+}
